@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Judge_client.dir/main.c.o CMakeFiles/Judge_client.dir/src/net/register.c.o CMakeFiles/Judge_client.dir/src/net/channel.c.o CMakeFiles/Judge_client.dir/src/net/socket_base.c.o CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.o CMakeFiles/Judge_client.dir/src/vender/ojp.c.o  -o Judge_client -lpthread 

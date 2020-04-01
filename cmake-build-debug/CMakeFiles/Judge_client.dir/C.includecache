@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/httime/CLionProjects/Judge_client/src/inc/sock.h
+bits/socket.h
+-
+
+/home/httime/CLionProjects/Judge_client/src/net/channel.c
+netinet/in.h
+-
+unistd.h
+-
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+../inc/sock.h
+/home/httime/CLionProjects/Judge_client/src/inc/sock.h
+
+/home/httime/CLionProjects/Judge_client/src/vender/pthreadpool.c
+sys/types.h
+-
+stdbool.h
+-
+
