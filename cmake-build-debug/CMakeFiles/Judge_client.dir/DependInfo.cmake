@@ -5,10 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/httime/CLionProjects/Judge_client/main.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/main.c.o"
+  "/home/httime/CLionProjects/Judge_client/src/judge/handler.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/judge/handler.c.o"
+  "/home/httime/CLionProjects/Judge_client/src/judge/judge_client.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o"
   "/home/httime/CLionProjects/Judge_client/src/net/channel.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/net/channel.c.o"
   "/home/httime/CLionProjects/Judge_client/src/net/register.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/net/register.c.o"
   "/home/httime/CLionProjects/Judge_client/src/net/socket_base.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/net/socket_base.c.o"
-  "/home/httime/CLionProjects/Judge_client/src/vender/ojp.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/vender/ojp.c.o"
   "/home/httime/CLionProjects/Judge_client/src/vender/pthreadpool.c" "/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

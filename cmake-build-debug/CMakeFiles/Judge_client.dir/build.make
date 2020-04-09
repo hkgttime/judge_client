@@ -122,18 +122,31 @@ CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/httime/CLionProjects/Judge_client/src/vender/pthreadpool.c -o CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.s
 
-CMakeFiles/Judge_client.dir/src/vender/ojp.c.o: CMakeFiles/Judge_client.dir/flags.make
-CMakeFiles/Judge_client.dir/src/vender/ojp.c.o: ../src/vender/ojp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Judge_client.dir/src/vender/ojp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Judge_client.dir/src/vender/ojp.c.o   -c /home/httime/CLionProjects/Judge_client/src/vender/ojp.c
+CMakeFiles/Judge_client.dir/src/judge/handler.c.o: CMakeFiles/Judge_client.dir/flags.make
+CMakeFiles/Judge_client.dir/src/judge/handler.c.o: ../src/judge/handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Judge_client.dir/src/judge/handler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Judge_client.dir/src/judge/handler.c.o   -c /home/httime/CLionProjects/Judge_client/src/judge/handler.c
 
-CMakeFiles/Judge_client.dir/src/vender/ojp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Judge_client.dir/src/vender/ojp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/httime/CLionProjects/Judge_client/src/vender/ojp.c > CMakeFiles/Judge_client.dir/src/vender/ojp.c.i
+CMakeFiles/Judge_client.dir/src/judge/handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Judge_client.dir/src/judge/handler.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/httime/CLionProjects/Judge_client/src/judge/handler.c > CMakeFiles/Judge_client.dir/src/judge/handler.c.i
 
-CMakeFiles/Judge_client.dir/src/vender/ojp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Judge_client.dir/src/vender/ojp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/httime/CLionProjects/Judge_client/src/vender/ojp.c -o CMakeFiles/Judge_client.dir/src/vender/ojp.c.s
+CMakeFiles/Judge_client.dir/src/judge/handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Judge_client.dir/src/judge/handler.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/httime/CLionProjects/Judge_client/src/judge/handler.c -o CMakeFiles/Judge_client.dir/src/judge/handler.c.s
+
+CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o: CMakeFiles/Judge_client.dir/flags.make
+CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o: ../src/judge/judge_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o   -c /home/httime/CLionProjects/Judge_client/src/judge/judge_client.c
+
+CMakeFiles/Judge_client.dir/src/judge/judge_client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Judge_client.dir/src/judge/judge_client.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/httime/CLionProjects/Judge_client/src/judge/judge_client.c > CMakeFiles/Judge_client.dir/src/judge/judge_client.c.i
+
+CMakeFiles/Judge_client.dir/src/judge/judge_client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Judge_client.dir/src/judge/judge_client.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/httime/CLionProjects/Judge_client/src/judge/judge_client.c -o CMakeFiles/Judge_client.dir/src/judge/judge_client.c.s
 
 # Object files for target Judge_client
 Judge_client_OBJECTS = \
@@ -142,7 +155,8 @@ Judge_client_OBJECTS = \
 "CMakeFiles/Judge_client.dir/src/net/channel.c.o" \
 "CMakeFiles/Judge_client.dir/src/net/socket_base.c.o" \
 "CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.o" \
-"CMakeFiles/Judge_client.dir/src/vender/ojp.c.o"
+"CMakeFiles/Judge_client.dir/src/judge/handler.c.o" \
+"CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o"
 
 # External object files for target Judge_client
 Judge_client_EXTERNAL_OBJECTS =
@@ -152,10 +166,11 @@ Judge_client: CMakeFiles/Judge_client.dir/src/net/register.c.o
 Judge_client: CMakeFiles/Judge_client.dir/src/net/channel.c.o
 Judge_client: CMakeFiles/Judge_client.dir/src/net/socket_base.c.o
 Judge_client: CMakeFiles/Judge_client.dir/src/vender/pthreadpool.c.o
-Judge_client: CMakeFiles/Judge_client.dir/src/vender/ojp.c.o
+Judge_client: CMakeFiles/Judge_client.dir/src/judge/handler.c.o
+Judge_client: CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o
 Judge_client: CMakeFiles/Judge_client.dir/build.make
 Judge_client: CMakeFiles/Judge_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Judge_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/httime/CLionProjects/Judge_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Judge_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Judge_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -150,6 +150,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/main.c.s
 .PHONY : main.c.s
 
+src/judge/handler.o: src/judge/handler.c.o
+
+.PHONY : src/judge/handler.o
+
+# target to build an object file
+src/judge/handler.c.o:
+	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/judge/handler.c.o
+.PHONY : src/judge/handler.c.o
+
+src/judge/handler.i: src/judge/handler.c.i
+
+.PHONY : src/judge/handler.i
+
+# target to preprocess a source file
+src/judge/handler.c.i:
+	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/judge/handler.c.i
+.PHONY : src/judge/handler.c.i
+
+src/judge/handler.s: src/judge/handler.c.s
+
+.PHONY : src/judge/handler.s
+
+# target to generate assembly for a file
+src/judge/handler.c.s:
+	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/judge/handler.c.s
+.PHONY : src/judge/handler.c.s
+
+src/judge/judge_client.o: src/judge/judge_client.c.o
+
+.PHONY : src/judge/judge_client.o
+
+# target to build an object file
+src/judge/judge_client.c.o:
+	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o
+.PHONY : src/judge/judge_client.c.o
+
+src/judge/judge_client.i: src/judge/judge_client.c.i
+
+.PHONY : src/judge/judge_client.i
+
+# target to preprocess a source file
+src/judge/judge_client.c.i:
+	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/judge/judge_client.c.i
+.PHONY : src/judge/judge_client.c.i
+
+src/judge/judge_client.s: src/judge/judge_client.c.s
+
+.PHONY : src/judge/judge_client.s
+
+# target to generate assembly for a file
+src/judge/judge_client.c.s:
+	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/judge/judge_client.c.s
+.PHONY : src/judge/judge_client.c.s
+
 src/net/channel.o: src/net/channel.c.o
 
 .PHONY : src/net/channel.o
@@ -231,33 +285,6 @@ src/net/socket_base.c.s:
 	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/net/socket_base.c.s
 .PHONY : src/net/socket_base.c.s
 
-src/vender/ojp.o: src/vender/ojp.c.o
-
-.PHONY : src/vender/ojp.o
-
-# target to build an object file
-src/vender/ojp.c.o:
-	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/vender/ojp.c.o
-.PHONY : src/vender/ojp.c.o
-
-src/vender/ojp.i: src/vender/ojp.c.i
-
-.PHONY : src/vender/ojp.i
-
-# target to preprocess a source file
-src/vender/ojp.c.i:
-	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/vender/ojp.c.i
-.PHONY : src/vender/ojp.c.i
-
-src/vender/ojp.s: src/vender/ojp.c.s
-
-.PHONY : src/vender/ojp.s
-
-# target to generate assembly for a file
-src/vender/ojp.c.s:
-	$(MAKE) -f CMakeFiles/Judge_client.dir/build.make CMakeFiles/Judge_client.dir/src/vender/ojp.c.s
-.PHONY : src/vender/ojp.c.s
-
 src/vender/pthreadpool.o: src/vender/pthreadpool.c.o
 
 .PHONY : src/vender/pthreadpool.o
@@ -297,6 +324,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/judge/handler.o"
+	@echo "... src/judge/handler.i"
+	@echo "... src/judge/handler.s"
+	@echo "... src/judge/judge_client.o"
+	@echo "... src/judge/judge_client.i"
+	@echo "... src/judge/judge_client.s"
 	@echo "... src/net/channel.o"
 	@echo "... src/net/channel.i"
 	@echo "... src/net/channel.s"
@@ -306,9 +339,6 @@ help:
 	@echo "... src/net/socket_base.o"
 	@echo "... src/net/socket_base.i"
 	@echo "... src/net/socket_base.s"
-	@echo "... src/vender/ojp.o"
-	@echo "... src/vender/ojp.i"
-	@echo "... src/vender/ojp.s"
 	@echo "... src/vender/pthreadpool.o"
 	@echo "... src/vender/pthreadpool.i"
 	@echo "... src/vender/pthreadpool.s"

@@ -3,6 +3,13 @@
 
 CMakeFiles/Judge_client.dir/main.c.o: ../main.c
 
+CMakeFiles/Judge_client.dir/src/judge/handler.c.o: ../src/inc/judge.h
+CMakeFiles/Judge_client.dir/src/judge/handler.c.o: ../src/judge/handler.c
+
+CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o: ../src/inc/judge.h
+CMakeFiles/Judge_client.dir/src/judge/judge_client.c.o: ../src/judge/judge_client.c
+
+CMakeFiles/Judge_client.dir/src/net/channel.c.o: ../src/inc/judge.h
 CMakeFiles/Judge_client.dir/src/net/channel.c.o: ../src/inc/sock.h
 CMakeFiles/Judge_client.dir/src/net/channel.c.o: ../src/net/channel.c
 

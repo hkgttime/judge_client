@@ -9,12 +9,10 @@
 #include <string.h>
 #include <pthread.h>
 #include "../inc/sock.h"
+#include "../inc/judge.h"
 
 #define CLIENT_SIZE 1024
 
-void handler(char *buf){
-    
-}
 
 void channel(){
     int sock = Socket(AF_INET, SOCK_STREAM, 0);
@@ -78,7 +76,7 @@ void channel(){
                     client_fd[i] = 0;
                 } else{
                     pthread_t pthread;
-                    pthread_create(&pthread, NULL, handler, &buf);
+                    pthread_create(&pthread, NULL, handlers, &buf);
                 }
             }
         }

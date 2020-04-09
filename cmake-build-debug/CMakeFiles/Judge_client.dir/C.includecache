@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/httime/CLionProjects/Judge_client/src/inc/sock.h
-bits/socket.h
--
+/home/httime/CLionProjects/Judge_client/src/inc/judge.h
 
-/home/httime/CLionProjects/Judge_client/src/net/channel.c
-netinet/in.h
+/home/httime/CLionProjects/Judge_client/src/judge/judge_client.c
+stddef.h
+-
+termio.h
 -
 unistd.h
 -
+sys/resource.h
+-
 stdio.h
 -
-string.h
+wait.h
 -
-pthread.h
+sys/stat.h
 -
-../inc/sock.h
-/home/httime/CLionProjects/Judge_client/src/inc/sock.h
-
-/home/httime/CLionProjects/Judge_client/src/vender/pthreadpool.c
-sys/types.h
+sys/ptrace.h
 -
-stdbool.h
+stdlib.h
 -
+../inc/judge.h
+/home/httime/CLionProjects/Judge_client/src/inc/judge.h
 

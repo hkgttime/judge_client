@@ -81,7 +81,16 @@
 		<Unit filename="/home/httime/CLionProjects/Judge_client/main.c">
 			<Option target="Judge_client"/>
 		</Unit>
+		<Unit filename="/home/httime/CLionProjects/Judge_client/src/inc/judge.h">
+			<Option target="Judge_client"/>
+		</Unit>
 		<Unit filename="/home/httime/CLionProjects/Judge_client/src/inc/ojp.h">
+			<Option target="Judge_client"/>
+		</Unit>
+		<Unit filename="/home/httime/CLionProjects/Judge_client/src/judge/handler.c">
+			<Option target="Judge_client"/>
+		</Unit>
+		<Unit filename="/home/httime/CLionProjects/Judge_client/src/judge/judge_client.c">
 			<Option target="Judge_client"/>
 		</Unit>
 		<Unit filename="/home/httime/CLionProjects/Judge_client/src/net/channel.c">
@@ -91,9 +100,6 @@
 			<Option target="Judge_client"/>
 		</Unit>
 		<Unit filename="/home/httime/CLionProjects/Judge_client/src/net/socket_base.c">
-			<Option target="Judge_client"/>
-		</Unit>
-		<Unit filename="/home/httime/CLionProjects/Judge_client/src/vender/ojp.c">
 			<Option target="Judge_client"/>
 		</Unit>
 		<Unit filename="/home/httime/CLionProjects/Judge_client/src/vender/pthreadpool.c">
